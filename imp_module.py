@@ -5,7 +5,8 @@ courses = ['History', 'Math', 'Physics', 'CompSci']
 index = find_index('math', courses)
 print(index)
 print(test)
-print(sys.path)
+print(sys.path)  #  ['C:\\D-Drive\\learning\\Corey-Schafer', 'C:\\D-Drive\\learning\\Corey-Schafer', 'C:\\Users\\GHarsh\\AppData\\Local\\Programs\\Python\\Python37\\python37.zip', 'C:\\Users\\GHarsh\\AppData\\Local\\Programs\\Python\\Python37\\DLLs', 'C:\\Users\\GHarsh\\AppData\\Local\\Programs\\Python\\Python37\\lib', 'C:\\Users\\GHarsh\\AppData\\Local\\Programs\\Python\\Python37', 'C:\\Users\\GHarsh\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages']
+
 # python look for module in directories mentioned in sys.path in the order items in the list are shown
 # if module is not found where the script is then we can use sys.path.append and append the path
 sys.path.append('path of the module')

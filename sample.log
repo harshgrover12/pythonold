@@ -1,0 +1,5 @@
+ERROR:__main__:Tried divide by zero
+Traceback (most recent call last):
+  File "C:/D-Drive/learning/Corey-Schafer/LoggingAdvanced.py", line 32, in divide
+    result = a/b
+ZeroDivisionError: division by zero
